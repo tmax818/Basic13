@@ -1,0 +1,22 @@
+Index: src/Basic13.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Basic13 {\n\n    public void PrintAllInts1to255(){\n        // TODO: Print all the integers from 1 to 255.\n    }\n\n    public void PrintInts0to255AndSum(){\n        // TODO: Print integers from 0 to 255, and with each integer print the sum so far.\n    }\n\n    public void FindAndPrintLargest(int[] intArray){\n        // TODO: Given an array, find and print its largest element.\n    }\n\n//    public int[] CreateArrayOfOdds1to255(){\n//        // TODO: Create an array with all the odd integers between 1 and 255 (inclusive).\n//    }\n\n    public void PrintCountGreaterThanY(int[] intArray, int y){\n        // TODO: Given an array and a value Y, count and print the number of array values greater than Y.\n    }\n\n    public void PrintMaxMinAvg(int[] intArray){\n        // TODO: Given an array, print the max, min and average values for that array.\n    }\n\n    public Object[] ReplaceWithDojo(Object[] objArray){\n        // TODO: Replace any negative array values with 'Dojo'.\n        for(int i = 0; i < objArray.length; i++){\n            if((int) objArray[i] < 0){\n                objArray[i] = \"Dojo\";\n            }\n        }\n        return objArray;\n    }\n\n// TODO: Print all odd integers from 1 to 255.\n// TODO: Iterate through a given array, printing each value.\n// TODO: Analyze an array’s values and print the average\n// TODO: Square each value in a given array, returning that same array with changed values\n// TODO: Return the given array, after setting any negative values to zero.\n// TODO: Given an array, move all values forward by one index, dropping the first and leaving a '0' value at the end.\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Basic13.java b/src/Basic13.java
+--- a/src/Basic13.java	(revision 96f08c0951eb7529f971b567f8378cd034444d45)
++++ b/src/Basic13.java	(date 1664163400472)
+@@ -34,7 +34,10 @@
+         return objArray;
+     }
+ 
+-// TODO: Print all odd integers from 1 to 255.
++    public void printAllOdd1To255(){
++        // TODO: Print all odd integers from 1 to 255.
++    }
++
+ // TODO: Iterate through a given array, printing each value.
+ // TODO: Analyze an array’s values and print the average
+ // TODO: Square each value in a given array, returning that same array with changed values
