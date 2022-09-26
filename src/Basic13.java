@@ -26,6 +26,12 @@ public class Basic13 {
 
     public Object[] ReplaceWithDojo(Object[] objArray){
         // TODO: Replace any negative array values with 'Dojo'.
+        for(int i = 0; i < objArray.length; i++){
+            if((int) objArray[i] < 0){
+                objArray[i] = "Dojo";
+            }
+        }
+        return objArray;
     }
 
 // TODO: Print all odd integers from 1 to 255.
